@@ -1,0 +1,89 @@
+.explore-content .explore-head{
+	font-size:30px;
+	font-family: 'Verdana';
+	padding:30px;
+	border-right: 4px solid darkblue;
+}
+.filter-title{
+	color:black;
+	background-color:lightgrey;
+	font-size: 15px;
+	font-family: 'Courier';
+	padding-left:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+button:hover{
+	opacity: 0.8;
+}
+.companies-list{
+	padding:15px;
+}
+.companies-list .company-temp{
+	border:1px solid lightgrey;
+	border-radius: 20px;
+	width:90%;
+	height:200px;
+	display: block;
+	margin:auto;
+	padding:10px;
+	transition: box-shadow 0.3s ease-in-out;	
+}
+.companies-list .company-temp:hover{
+	box-shadow: 0 5px 15px gray;
+}
+.company-temp:hover .company-desc{
+	border-color:lightblue ;
+}
+.icon-content{
+	height:80px;
+}
+.icon-left-content{
+	float:left;
+}
+.icon-left-content .side-content .comp-name{
+	font-size: 22px;
+	font-family: 'TIMES NEW ROMAN';
+	padding-top: 40px;
+}
+.icon-left-content {
+	display:flex;
+}
+.icon-right-content{
+	float:right;
+	font-size: 17px;
+	font-family: 'monospace';
+	padding:20px;
+	display: flex;
+	text-align: center;
+}
+.icon-right-content .company-desc{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	border-left:2px solid lightgrey ;
+}
+.icon-right-content .company-desc .review,.salary,.jobs{
+	padding-bottom:5px;
+}
+.company-temp .description{
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-size: 15px;
+	font-family: 'sans-serif';
+	background-color: lightblue;
+	width:89%;
+	padding-top:10px;
+	border-radius: 10px;
+}
+.copyrights{
+				height:50px;
+				background-color: #AFDCEC;
+			}
+
+			.copyrights .content{
+				color:black;
+				text-align: center;
+				font-size: 20px;
+				padding:10px;
+			}			

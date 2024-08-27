@@ -1,0 +1,89 @@
+1.ACCENTURE
+
+Let there be change
+
+ 1 At least 8-9 years experience in supporting Infrastructure security management solutions
+ 2 Extensive Hands on experience on implementation, configuration and administration of NextGen Firewalls ie PaloAlto Must have, Fortinet, Cisco ASA and Checkpoint
+
+ 1 Excellent Hands on experience on implementation, configuration and administration of Endpoint Protection tools like McAfee ePO/Symantec/TrendMicro DSM
+ 2 Vendor management to support Infrastructure security infrastructure
+ 3 Handle troubleshooting and diagnosis to find root cause of incident. 
+ 4 Flexibility to work in shifts and provide after-work hours and weekend on-call support as and when required.
+
+ 1 understanding of any standard AV solution will be added advantage.
+ 2 Good understanding of Firewall
+
+
+2.WELLS FARGO
+
+
+It all begins with you. 
+
+
+	University degree in Business or related discipline
+	Total 6+ years’ experience out of which a minimum of 4 years relevant experience in risk management (includes control testing, issue identification and validation, compliance, financial crimes, operational risk, internal audit, business process management)
+
+	Knowledge and understanding of financial services industry: compliance, risk management, or audit operations
+	Specialized knowledge or prior control testing or review experience
+	Experience testing policy, procedures, control and business process testing
+	Experience creating, executing, and documenting compliance, control, and business process testing
+	Intermediate Microsoft Office (Word, Excel, Outlook, and PowerPoint)
+	Ability to take on a high level of responsibility, initiative, and accountability
+	Ability to prepare reports and present to executives
+	Other Desired Experience:
+	Minimum 4 years at Big Four or super regional public accounting firms or financial industry with experience in business process, regulatory, audit and/or advisory/consulting services
+	Demonstrated success with influencing business units to identify, formulate and implement processes/procedures to mitigate risk.
+
+3.TATA CONSULTANCY SERVICES
+ 
+
+Building on Belief
+
+
+	Bachelor's degree in Computer Science, Engineering, Social Science, Education, Business, Health Care or related field
+
+	3 years experience in IT intake and profiling in a support or operations environment.
+
+	Minimum 4 years experience in access management and user provisioning.
+
+	Minimum 3 years in a non-supervisory or supervisory leadership role of a large matrixed organization's IT or operational teams.
+
+	Experienced in UNIX server configuration/local access/home directory/file systems/permissions
+
+	Experience in a large Active Directory Access Management
+
+	Experienced in a Windows Active Directory infrastructure
+
+
+4.COGNIZANT TECHNOLOGY SOLUTIONS
+
+
+
+Intuition engineered
+
+
+	 Bachelor’s or Master’s degree in Computer Science or related field from a top university
+
+	Experience with migrating workloads onto the cloud
+
+
+	Experience with AI/ML/eCommerce/Digital Health/Marketplaces/Blockchain
+technologies/solutions
+
+	
+	Presentation skills with a high degree of comfort speaking with executives, IT Management, and developers
+
+	A solid understanding of industry-wide technology strategies and best practices
+
+	Experience communicating architecture direction and decisions through presentations and clear architectural diagrams to engineering / product groups
+
+	 Solid Computer Science fundamentals, excellent problem-solving skills.
+
+
+
+
+
+
+
+	
+

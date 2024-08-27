@@ -1,0 +1,46 @@
+COMPANIES : 
+
+1.JIO 
+
+16.8K
+Reviews
+2.4M
+Salaries
+1L
+Jobs
+
+DESCRIPTION :
+Jio bought a 95% stake in IBSL for ₹4,800 crore (equivalent to ₹110 billion or US$1.3 billion in 2023). Although unlisted, IBSL was the only company that won broadband spectrum in all 22 circles in India in the 4G auction that took place earlier that year. Jio owns spectrum in 850 MHz and 1,800 MHz bands in India's 22 circles, and also owns pan-India licensed 2,300 MHz spectrum.
+
+2.IBM WATSON:
+1L
+Reviews
+2L
+Salaries
+5T
+Jobs
+
+DESC:
+Working at IBM Watson is rated below average by 35 employees, across various culture dimensions. IBM Watson employees rate Perks And Benefits highest among all categories, and think that CEO Rating and Executive Team have the most room for improvement, putting IBM Watson’s culture in the Bottom 25% compared to similar sized companies on Comparably. See below in detail how working at IBM Watson was rated by employees.
+
+3.PALANTIR
+30K
+Reviews
+1.8T
+Salaries
+2.1T
+Jobs
+
+DESC:
+Palantir (NYSE: PLTR), we're helping the world's most important institutions use their data to solve their most urgent problems. Our software lets our customers integrate and analyze all of their data so they can answer questions that they couldn't before.
+
+4.DATAMATICS
+1.4T
+Reviews
+1.6T
+Salaries
+90K
+Jobs
+
+DESC:
+Datamatics is a global provider of Consulting, Information Technology (IT), Data Management and Business Process Management services to several Fortune 500 companies. Datamatics has a fully integrated offering to support digital transformation of organizations through Smart Processes, Smart Systems, Smart Devices and Smart Data.

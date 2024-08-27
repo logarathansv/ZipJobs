@@ -1,0 +1,32 @@
+1. IBM
+
+Minimum 12 years of experience in IT industry.
+Minimum 4 years of experience in Oracle SCM Cloud.
+3 End to End Implementations in Oracle Procurement Cloud as Functional Consultant/Techno Functional Consultant
+Experience in building Interface with Oracle Cloud SaaS.
+Experience in Procurement Cloud modules like Self Service Procurement, Procurement Contracts, Souring Cloud.
+
+2. PALANTIR
+
+You have a Bachelors/Masters/PhD degree in Statistics, Mathematics or Computer Science, or another quantitative field
+You have 8+ years of industry experience (6+ for Masters degree holders, 4+ for PhD degree holders) with demonstrated
+independence & self-motivation in a large & vague scope
+balance between scrappy execution to drive more business value sooner and longer term/bigger picture perspectives
+curiosity & ability to learn new skills/tools fast
+ability to communicate very effectively with collaborators with very different roles
+You are strong at defining good product KPIs/guardrail metrics, dashboarding and analysis of raw data to derive insights
+You are proficient in SQL and the modern data stack (e.g. dbt for analytics engineering / pipelining, Fivetran and Census for ETL/ELT)
+You are proficient in Python or R. You have experience in writing source-controlled code for pipelines and internal tools for data-oriented decision making.
+You're strong in statistics and/or machine learning. You have experience in applying these skills into tangible improvements in products, internal tools and processes.
+
+3. DATAMATICS
+
+Providing Intelligent Solutions for Data Driven Businesses
+
+Has a good understanding of CICS
+Has some experience of zLinux and Linux
+Strong experience SMP/E, zOS TSO, IBM Utilities, JCL
+7-9 year’s experience
+At least 5 years’ strong experience of supporting and maintaining an MQ environment which will include MQ Appliances, MQ Series (Mainframe. Windows and Linux environments) and MQ Queue Sharing.
+
+

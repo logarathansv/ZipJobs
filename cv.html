@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CREATE CV Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #e75480;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #007bff;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #e75480;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 97%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 150px;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .submit-btn {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background-color: #0056b3;
+    }
+    .colorful-text {
+      color: #ff4c4c; /* Red */
+    }
+
+    .background-image {
+      background-image: url('https://images.unsplash.com/photo-1520052205864-92d242b3a76b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js" ></script>
+  <script src=
+ "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js">
+    </script>
+</head>
+<body class="background-image">
+  <div class="container">
+    <h1 class="colorful-text">Job Application</h1>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" name="phone" required>
+
+      <label for="job">Applying for Position</label>
+      <input type="text" id="job" name="job" required>
+
+      <label for="experience">Years of Experience</label>
+      <select id="experience" name="experience" required>
+        <option value="">Select</option>
+        <option value="0-1">0-1</option>
+        <option value="1-3">1-3</option>
+        <option value="3-5">3-5</option>
+        <option value="5+">5+</option>
+      </select>
+
+      <label for="education">Education Level</label>
+      <select id="education" name="education" required>
+        <option value="">Select</option>
+        <option value="high-school">High School</option>
+        <option value="bachelors">Bachelor's Degree</option>
+        <option value="masters">Master's Degree</option>
+        <option value="doctorate">Doctorate Degree</option>
+      </select>
+
+      <label for="skills">Key Skills (comma-separated)</label>
+      <input type="text" id="skills" name="skills" required>
+
+      <label for="linkedin">LinkedIn Profile</label>
+      <input type="text" id="linkedin" name="linkedin">
+
+      <label for="portfolio">Portfolio Website</label>
+      <input type="text" id="portfolio" name="portfolio">
+
+      <label for="coverLetter">Cover Letter</label>
+      <textarea id="coverLetter" name="coverLetter" required></textarea>
+      
+      <label for="photo">Profile Photo (JPEG or PNG)</label>
+      <input type="file" id="photo" name="photo" accept=".jpg,.jpeg,.png">
+
+      <input type="button" value="Generate PDF" onclick="generatePDF()" style="padding: 10px; background-color:#a53961b8;">
+    </form>
+  </div>
+  <script type="text/javascript">
+    function generatePDF() {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const phone = document.getElementById('phone').value;
+      const job = document.getElementById('job').value;
+      const experience = document.getElementById('experience').value;
+      const education = document.getElementById('education').value;
+      const skills = document.getElementById('skills').value;
+      const linkedin = document.getElementById('linkedin').value;
+      const portfolio = document.getElementById('portfolio').value;
+      const coverLetter = document.getElementById('coverLetter').value;
+      const photoInput = document.getElementById('photo');
+      const photoFile = photoInput.files[0];
+      const reader = new FileReader();
+      reader.onloadend = function () {
+        const photoData = reader.result;
+        doc.addImage(photoData, 'JPEG', 150, 12, 45, 45); // Add the photo to the PDF
+        doc.setFontSize(12);
+      // Add the content to the PDF
+      doc.setFontSize(16);
+      doc.text(20, 20, 'Job Application');
+      doc.setFontSize(12);
+      doc.text(20, 30, `Full Name: ${name}`);
+      doc.text(20, 40, `Email Address: ${email}`);
+      doc.text(20, 50, `Phone Number: ${phone}`);
+      doc.text(20, 60, `Applying for Position: ${job}`);
+      doc.text(20, 70, `Years of Experience: ${experience}`);
+      doc.text(20, 80, `Education Level: ${education}`);
+      doc.text(20, 90, `Key Skills: ${skills}`);
+      doc.text(20, 100, `LinkedIn Profile: ${linkedin}`);
+      doc.text(20, 110, `Portfolio Website: ${portfolio}`);
+      
+      // Add cover letter content
+      doc.setFontSize(16);
+      doc.text(20, 130, 'Cover Letter');
+      doc.setFontSize(12);
+      doc.text(20, 140, coverLetter);
+
+      // Save the PDF
+      doc.save('JobApplication_CV.pdf');
+      doc.output("dataurl");
+    };
+      reader.readAsDataURL(photoFile);
+    }
+
+  </script>
+</body>
+</html>

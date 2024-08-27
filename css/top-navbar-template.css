@@ -1,0 +1,85 @@
+.sidenav{
+  	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: black;
+	overflow-x: hidden;
+	transition: 0.5s;
+    padding-top: 60px;
+}			
+.sidenav a {
+  	padding: 8px 8px 8px 32px;
+  	text-decoration: none;
+  	font-size: 25px;
+  	color: white;
+  	display: block;
+    transition: 0.3s;
+}
+#sidenavside a:hover{
+  	opacity:0.8;
+}
+#sidenavside a{
+	border:2px solid white;
+	padding-bottom:20px;
+}
+.sidenav .closebtn {
+  	position: absolute;
+  	top: 0;
+  	right: 25px;
+  	font-size: 36px;
+  	margin-left: 50px;
+}
+.container {
+  	transition: margin-left .5s;
+  	opacity:2px;
+}
+@media screen and (max-height: 450px) {
+  	.sidenav {padding-top: 15px;}
+  	.sidenav a {font-size: 18px;}
+}
+.logo-top{
+	background-color: #AFDCEC;
+	height:50px;
+	display: block;
+}
+#contact-us{
+	float:right;
+	padding:10px;
+}
+#contact-us a{
+	padding: 5px;
+}
+#logo{
+	padding-left:20px;
+	font-family: 'Trebuchet MS';
+	font-size: 20px;
+}
+.navbar1{
+	background-color: #F0F0F0;
+	height:80px;
+	border:1px solid black;
+	border-radius:5px;
+}
+.navbar1 a{
+	text-decoration: none;
+	color:black;
+	padding:60px;
+}
+#menu-icon{
+	margin-left: 20px;
+	float: left;
+	padding-top: 20px;
+}
+#menu-options{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.sidenav{
+	background-color: #5F8C9C;
+	border-radius: 10px;
+}

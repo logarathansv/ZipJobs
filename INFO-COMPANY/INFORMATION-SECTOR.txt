@@ -1,0 +1,51 @@
+1.ACCENTURE
+
+1T
+Reviews
+2T
+Salaries
+28T
+Jobs
+
+DESC:
+
+Growing customer expectations. Market-Shaping AI. Self-Optimizing systems. The post-digital age shows no signs of slow down, and the need for the new ideas powered by intelligent technologies has never been greater.
+
+2.WELLS FARGO
+
+46T
+Reviews
+72T
+Salaries
+3.3T
+Jobs
+
+DESC:
+
+Wells Fargo & Company (NYSE: WFC) is a diversified, community-based financial services company with $1.98 trillion in assets. Wells Fargo’s vision is to satisfy our customers’ financial needs and help them succeed financially. Founded in 1852 and headquartered in San Francisco, Wells Fargo provides banking, investment and mortgage products and services.
+
+3.TATA CONSULTANCY SERVICES
+
+1L
+Reviews
+2L
+Salaries
+1.9T
+Jobs
+
+DESC:
+
+TCS is an IT services, consulting and business solutions organization that has been partnering with many of the world's largest businesses in their transformation journeys for over 50 years.
+
+4.COGNIZANT TECHNOLOGY SOLUTIONS
+
+86T
+Reviews
+2L
+Salaries
+2.5T
+Jobs
+
+DESC:
+
+Cognizant is one of the world’s leading professional services companies, helping clients become data-enabled and data-driven in the digital era. Our industry-based, consultative approach helps companies evolve into modern businesses. By leading clients in leveraging technologies essential to modern enterprises such as IoT, artificial intelligence, digital engineering and cloud, we enable new business and operating models that unlock new value in markets around the world. 

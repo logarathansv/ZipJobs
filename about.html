@@ -1,0 +1,422 @@
+<html>
+	<head>
+		<title>ABOUT PAGE</title>
+		<style>
+			.sidenav{
+  				height: 100%;
+				width: 0;
+				position: fixed;
+				z-index: 1;
+				top: 0;
+				left: 0;
+				background-color: #111;
+				overflow-x: hidden;
+				transition: 0.5s;
+			    padding-top: 60px;
+			}
+			.sidenav a {
+  				padding: 8px 8px 8px 32px;
+  				text-decoration: none;
+  				font-size: 25px;
+  				color: white;
+  				display: block;
+  				transition: 0.3s;
+
+			}
+			#sidenavside a:hover{
+  				color:black;
+			}
+			#sidenavside a{
+				border:2px solid white;
+				padding-bottom:20px;
+			}
+			.sidenav .closebtn {
+  				position: absolute;
+  				top: 0;
+  				right: 25px;
+  				font-size: 36px;
+  				margin-left: 50px;
+			}
+			.container {
+  				transition: margin-left .5s;
+  				opacity:2px;
+			}
+			@media screen and (max-height: 450px) {
+  				.sidenav {padding-top: 15px;}
+  				.sidenav a {font-size: 18px;}
+			}
+			.logo-top{
+				background-color: #AFDCEC;
+				height:50px;
+				display: block;
+			}
+			#contact-us{
+				float:right;
+				padding:10px;
+			}
+			#contact-us a{
+				padding: 5px;
+			}
+			#logo{
+				padding-left:20px;
+				font-family: 'Trebuchet MS';
+				font-size: 20px;
+			}
+			.navbar1{
+				background-color: #F0F0F0;
+				height:80px;
+				border:1px solid black;
+				border-radius:5px;
+			}
+			.navbar1 a{
+				text-decoration: none;
+				color:black;
+				padding:60px;
+			}
+			#menu-icon{
+				margin-left: 20px;
+				float: left;
+				padding-top: 20px;
+
+			}
+			#menu-options{
+				text-align: center;
+				padding-top: 30px;
+				font-size: 20px;
+				margin-left: 20px;
+			}
+			.sidenav{
+				background-color: #5F8C9C;
+				border-radius: 10px;
+			}
+			.copyrights{
+				height:50px;
+				background-color: #AFDCEC;
+			}
+			.copyrights .content{
+				color:black;
+				text-align: center;
+				font-size: 20px;
+				padding:10px;
+			}			
+		</style>
+        <style>
+            /* CSS styles go here */
+            body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+            }
+        
+            header {
+              background-color: #333;
+              color: #fff;
+              padding: 20px;
+              text-align: center;
+            }
+        
+            nav {
+              background-color: #f2f2f2;
+              padding: 10px;
+            }
+        
+            nav ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            }
+        
+            nav ul li {
+              display: inline-block;
+              margin-right: 10px;
+            }
+        
+            nav ul li a {
+              color: #333;
+              text-decoration: none;
+              padding: 5px;
+            }
+        
+            section {
+              padding: 20px;
+            }
+        
+            h1 {
+              font-size: 28px;
+              color: #333;
+              margin-bottom: 10px;
+            }
+        
+            h2 {
+              font-size: 20px;
+              color: #333;
+              margin-bottom: 10px;
+            }
+        
+            p {
+              line-height: 1.5;
+              color: #666;
+            }
+        
+            footer {
+              background-color: #f2f2f2;
+              padding: 10px;
+              text-align: center;
+            }
+        </style>
+
+<style>
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	  margin: 0;
+	}
+	
+	html {
+	  box-sizing: border-box;
+	}
+	
+	*, *:before, *:after {
+	  box-sizing: inherit;
+	}
+	
+	.column {
+	  float: left;
+	  width: 33.3%;
+	  margin-bottom: 16px;
+	  padding: 0 8px;
+	}
+	
+	.card {
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	  margin: 8px;
+	}
+	
+	.about-section {
+	  padding: 50px;
+	  text-align: center;
+	  background-color: #7af097;
+	  color: white;
+	}
+	
+	.container {
+	  padding: 0 16px;
+	}
+	
+	.container::after, .row::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+	
+	.title {
+	  color: grey;
+	}
+	
+	.button {
+	  border: none;
+	  outline: 0;
+	  display: inline-block;
+	  padding: 8px;
+	  color: white;
+	  background-color: #000;
+	  text-align: center;
+	  cursor: pointer;
+	  width: 100%;
+	}
+	
+	.button:hover {
+	  background-color: #555;
+	}
+	
+	@media screen and (max-width: 650px) {
+	  .column {
+		width: 100%;
+		display: block;
+	  }
+	}
+	</style>
+			
+	</head>
+	<body>
+		<script>
+			function openNav() {
+  			document.getElementById("mySidenav").style.width = "250px";
+			}
+
+			function closeNav() {
+  			document.getElementById("mySidenav").style.width = "0";
+  			document.getElementById("container").style.marginLeft= "0";
+  			document.body.style.backgroundColor = "white";
+			}
+		</script>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div id="sidenavside" style="margin-top:50px">
+  			<a href="services.html">Company Services</a>
+  			<a href="guide.html">Salary Guide</a>
+  			<a href="cv.html">Create CV</a>
+  			<a href="privacy.html">Privacy Policy</a>
+				<a href="help.php">Help Center</a>
+				<a href="logout.php">LOG OUT</a>
+			</div>
+		</div>
+		<div class="container" id="container">
+			<div class="logo-top">
+				<div id="logo">
+					<img style="padding-top:10px" src="images/logo.jpg" width=30px height=30px>
+					<b style="vertical-align: 5px;">ZipJobs</b>
+				<div id="contact-us">
+					<a href="https://www.youtube.com/"><img src="images/youtube.png" width=30px height=30px></a>
+					<a href="https://www.facebook.com/"><img src="images/facebook.png" width=30px height=30px></a>
+					<a href="https://www.instagram.com/"><img src="images/instagram.png" width=30px height=30px></a>
+					<a href="https://www.twitter.com/"><img src="images/twitter.png" width=30px height=30px></a>
+				</div>
+				</div>
+				</div>
+			</div>
+			<div class="navbar1">
+				<div id="menu">
+					<div id="menu-icon">
+						<img src="images/option.png" onclick="openNav()" width=40px height=40px>
+					</div>
+					<div id="menu-options">
+						<a href="index.php">HOME</a>
+						<a href="explore.php">EXPLORE</a>
+						<a href="myjobs.php">RECENT SEARCHES</a>						
+						<a href="about.html">ABOUT</a>
+					</div>
+				</div>
+			</div>
+
+        <div>
+            <section>
+
+                <h1>Let's get to work</h1> <br>
+				
+                <p style="font-size:large; text-align: justify;">So, what is ZIPJOBS? We're a thriving community for workplace conversations, driven by a simple mission: helping people everywhere find jobs and companies they love.
+					<br><br> But the way we do it? That's not so simple.
+					<br><br> Every day, we're inspired by a vision to make positive workplace change through radical transparency. 
+					Through the products we make and the communities we create, we're breaking down barriers that lead to discrimination, pay gaps, and toxic work environments. 
+					Together, we're fostering a world where people have the support and resources they need to find a job that loves them back.
+				</p>
+				<center>
+				
+				<div class="about-section" style="background-color:#AFDCEC">
+                <h2>What we do</h2>
+				
+				
+                <p style="font-size: larger;">Wherever you are on your career journey, ZipJobs makes it easier for workers and companies to find the perfect match.</p>
+			    </center>
+			</div>
+				
+				
+				  <div class="row">
+					<div class="column">
+					  <div class="card">
+						<div class="container">
+						  <h2>For job seekers</h2>
+						  <p>We simplify your search, so you can apply for jobs with confidence. Filter millions of jobs and ratings, talk to professionals, get smart on salary—then apply with ease.</p>
+						  </div>
+					  </div>
+					</div>
+				  
+					<div class="column">
+					  <div class="card">
+						<div class="container">
+						  <h2>For employees</h2>
+						  <p>We amplify your voice,  so you can enhance your workplace experience.  Leave reviews,  search and post salaries,  and join candid conversations about life at work.</p>
+						  </div>
+					  </div>
+					</div>
+					
+					<div class="column">
+					  <div class="card">
+						<div class="container">
+						  <h2>For employers</h2>
+						  <p>We give you a place to shape and share your story,  so you can find and keep the best talent.  Post jobs,  respond to reviews,  and gain insights to shape your messaging.</p>
+						  </div>
+					  </div>
+					</div>
+				  </div>
+				  
+			  </section>
+            
+              
+        </div>
+
+		<section>
+
+		<div class="about-section" style="background-color:#AFDCEC"> 
+			<h2>News you can use</h2>
+			<p style="font-size: larger; text-align: center";>Workplace trends come and go. When they do, ZipJobs is poised to lead the discussion, offering thought leadership, insights, and advice to help you make sense of it all.</p>
+			</div>
+
+		  <div class="row">
+			<div class="column">
+			  <div class="card">
+				<div class="container">
+				  <h2>From the newsroom</h2>
+				  <p>Check out our latest press releases and media appearances, or search our archive.</p>
+				  </div>
+			  </div>
+			</div>
+		  
+			<div class="column">
+			  <div class="card">
+				<div class="container">
+				  <h2>From the blog</h2>
+				  <p>Whether you're interviewing, asking for raise, or making big career move, our blog has tips and tricks you need to shine</p>
+				  </div>
+			  </div>
+			</div>
+			
+			<div class="column">
+			  <div class="card">
+				<div class="container">
+				  <h2>From our research</h2>
+				  <p>Get the latest insights on today's labor market from ZipJobs leading economists and data scientists.</p>
+				  </div>
+			  </div>
+			</div>
+		  </div>
+
+		</section>
+		  
+		  <h2 style="text-align:center">Our Team</h2>
+		  <center><div class="row">
+			<div class="column" style="display:block;margin:auto; width:30%">
+			  <div class="card">
+				<!--img src="/w3images/team1.jpg" alt="Jane" style="width:100%"-->
+				<div class="container">
+					<br>
+				  <h2>Logarathan S V</h2>
+				  <p class="title">2022503047</p>
+				  <p class="title">8825624302</p>
+				  <p class="title">rathan@gmail.com</p>
+				</div>
+			  </div>
+			</div>
+		  
+			<div class="column" style="display:block;margin:auto; width:30%">
+			  <div class="card">
+				<!--img src="/w3images/team2.jpg" alt="Mike" style="width:100%"-->
+				<div class="container">
+					<br>
+				  <h2>Yugash D</h2>
+				  <p class="title">2022503039</p>
+				  <p class="title">9344227452</p>
+				  <p class="title">dyugash@gmail.com</p>
+				</div>
+			  </div>
+			</div>
+			</div>
+		</center>
+		</div>
+			<br> <br> <br>
+		<div class="copyrights">
+				<div class="content">
+					&#169; 2023 ZipJobs All Rights Reserved.
+				</div>
+			
+	</body>
+</html>
